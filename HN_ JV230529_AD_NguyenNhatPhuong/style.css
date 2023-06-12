@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 17, 17);
+    
+}
+.fm .fm1 ul.li a {
+    margin: 30px;
+    
+}
+.fm2 ul li a{
+    margin: 30px;
+}
+.fm1 ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 50px;
+}
+.fm2 ul {
+    display: flex;
+    list-style: none;
+    padding: 20px 30px;
+}
+.fm1 ul li a{
+    text-decoration: none;
+    color: #ded4d4;
+}
+.sum ul {
+    display: flex;
+    align-items: center;
+}
+.sum ul li {
+    list-style: none;
+    padding: 20px 10px;
+}
+.sum ul li a {
+    text-decoration: none;
+    color: rgb(20,21,21);
+}
+.sum1 {
+    display: flex;
+    /* đẩy không gian trống ở giữa */
+    justify-content: space-between;
+    /*căn chỉnh các phần tử con vào giữa phần tử cha.*/
+    align-items: center; 
+}
+.article3 {
+    width: 80%;
+    padding: 20px 200px;
+}
+.article3 h3 {
+    margin-bottom: 20px;
+}
+.article4 {
+    margin-top: 10px;
+}
+.sin1 {
+    display: flex;
+}
+.sin1 .sin2 {
+    width: 24%;
+    padding: 0 10px;
+}
+.sin1 .sin2 img {
+    max-width: 100%;
+}
+.sin3 h3 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.sin3 p {
+    margin-top: 10px;
+}
+.wl2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0 10px;
+}
+.wl4{
+    display: flex;
+    align-items: center;
+}
+.wl4 ul li {
+    list-style: none; 
+}
+.wl5 {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width: 33.3333%;
+    padding: 20px;
+}
+.item img {
+    max-width: 100%;
+}
+.bm {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 29, 29);
+    color: rgb(201, 204, 206);
+    padding: 50px;
+}
+.tech {
+    width: 20%;
+    text-decoration: none;
+}
+.tech ul li {
+    list-style: none;
+}
+.tech ul li a {
+    text-decoration: none;
+    color: #dcd5d5;
+}
+.tech h3 {
+    margin-left: 50px;
+}
+.tech p {
+    margin-top: 30px;
+}
+.tech h4 {
+    margin-bottom: 30px;
+}
+
+
